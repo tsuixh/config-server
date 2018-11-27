@@ -4,6 +4,7 @@ spring:
     config:
       server:
         git:
+#          连接远程的配置仓库
           uri: https://github.com/tsuixh/config-server/tree/dev/config
   application:
     name: config-server
