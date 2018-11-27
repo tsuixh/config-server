@@ -1,11 +1,8 @@
-
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/tsuixh/config-server/tree/dev/config
-  application:
-    name: config-server
+          uri: /Users/cuiyunhong/Desktop/config
 server:
   port: 8888
