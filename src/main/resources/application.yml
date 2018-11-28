@@ -1,10 +1,13 @@
-
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/tsuixh/config-server/tree/dev/config
+          uri: https://github.com/tsuixh/config-server
+          search-paths: config
+          username: githubaccount
+          password: githubpassword
+          default-label: master
   application:
     name: config-server
 server:
